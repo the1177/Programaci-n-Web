@@ -1,5 +1,6 @@
 /* Hoja de estilos CSS - Universidad del Caribe; Programación Web */
 
+
 /* Estilos del body en general  */
 body
 {
@@ -41,6 +42,7 @@ th:hover
 
 .contenedor
 {
+	border: 1px solid black;
 	background-color: gray;
 	text-align: center;
 	width: 70%;
