@@ -1,14 +1,30 @@
 /* Hoja de estilos CSS */
 
+/* Estilos del body en general  */
 body
 {
 	background-color: black;
 }
 
+/* Todos los h1 */
 h1
 {
 	color: #00ff04;	
 }
+
+/* Tablas y celdas */
+table, th, td
+{
+	border: 1px solid black;
+}
+
+/* Cuando pasa el ratón por el th */
+th:hover
+{
+	color: #ff0000;
+	border: 1px solid red;
+}
+
 
 .contenedor
 {
