@@ -12,9 +12,16 @@ h1
 	color: #00ff04;	
 }
 
+a
+{
+	color: #00ff04;
+	text-decoration: none;
+}
+
 /* Tablas y celdas */
 table, th, td
 {
+	color: #00ff04;	
 	border: 1px solid black;
 }
 
