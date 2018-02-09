@@ -9,3 +9,10 @@ h1
 {
 	color: #00ff04;	
 }
+
+.contenedor
+{
+	background-color: gray;
+	text-align: center;
+	width: 50%;
+}
