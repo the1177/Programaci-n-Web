@@ -35,3 +35,10 @@ var sec = 0;
     		document.getElementById("segundero").innerHTML="Desde que entraste a la página, han ocurrido " + (++sec) + " ataques en el mundo.";
     	}
    	,45);
+
+
+// Registro
+function correo()
+{
+	alert("Correo enviado.")
+}

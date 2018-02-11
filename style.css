@@ -75,6 +75,12 @@ strong
     width: 500px;
 }
 
+#footer
+{
+	font-size: 12px;
+	text-align: center;
+}
+
 .contenedor
 {
 	border: 2px solid black;
@@ -91,7 +97,7 @@ strong
 	background-color: gray;
 	text-align: center;
 	width: 20%;
-	height: 280px;
+	height: 350px;
 }
 
 .contenedorRegistro
@@ -102,7 +108,16 @@ strong
 	background-color: gray;
 	text-align: center;
 	width: 49%;
-	height: 280px;
+	height: 350px;
+}
+
+.contenedorFooter
+{
+	margin-top: 360px;
+	border: 2px solid black;
+	background-color: gray;
+	text-align: center;
+	width: 70%;
 }
 
 .menu
@@ -130,4 +145,12 @@ strong
 	text-align:center;
 	bottom: 0px;
 	width: 100%;
+}
+
+.registro
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
