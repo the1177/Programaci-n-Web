@@ -55,6 +55,11 @@ table, th, td
 	font-family: Lucida Console;
 }
 
+strong
+{
+	color: #e00000;
+}
+
 
 
 /* Cuando pasa el ratón por el th */
@@ -80,10 +85,23 @@ table, th, td
 
 .contenedorLogin
 {
+	float: left;
+	margin-left: 15%;
 	border: 2px solid black;
 	background-color: gray;
 	text-align: center;
 	width: 20%;
+	height: 280px;
+}
+
+.contenedorRegistro
+{
+	float: right;
+	margin-right: 15%;
+	border: 2px solid black;
+	background-color: gray;
+	text-align: center;
+	width: 49%;
 	height: 280px;
 }
 
