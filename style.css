@@ -83,7 +83,6 @@ table, th, td
 	height: 50px;
 }
 
-<<<<<<< HEAD
 .banner
 {
 	width: 70%;
@@ -94,11 +93,12 @@ table, th, td
 {
 	color: #ff0000;
 	font-family: Lucida Console;
-=======
-.reloj{
+}
+
+.reloj
+{
 	position: fixed;
 	text-align:center;
 	bottom: 0px;
 	width: 100%;
->>>>>>> 7206743e55b1c33ab61cfc110867568e36a913bc
 }
