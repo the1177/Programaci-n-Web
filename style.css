@@ -68,3 +68,10 @@ table, th, td
 	text-align: center;
 	height: 50px;
 }
+
+.reloj{
+	position: fixed;
+	text-align:center;
+	bottom: 0px;
+	width: 100%;
+}
