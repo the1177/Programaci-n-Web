@@ -23,8 +23,15 @@ function check(){
 var myVar = setInterval(function() {
   myTimer();
 }, 1000);
-
 function myTimer() {
   var d = new Date();
   document.getElementById("clock").innerHTML = "Hora actual<br>" + d.toLocaleTimeString();
 }
+
+// Contador
+var sec = 0;
+    setInterval(function()
+    	{
+    		document.getElementById("segundero").innerHTML="Desde que entraste a la página, han ocurrido " + (++sec) + " ataques en el mundo.";
+    	}
+   	,45);
