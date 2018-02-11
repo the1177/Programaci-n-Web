@@ -118,6 +118,27 @@ strong
 	background-color: #353535;
 	text-align: center;
 	width: 70%;
+	clear: both;
+}
+
+.contenedorMarcos
+{
+	float: left;
+	margin-left: 15%;
+	border: 2px solid black;
+	background-color: #353535;
+	text-align: center;
+	width: 34%;
+}
+
+.contenedorJacob
+{
+	float: right;
+	margin-right: 15%;
+	border: 2px solid black;
+	background-color: #353535;
+	text-align: center;
+	width: 34%;
 }
 
 .menu
@@ -153,4 +174,10 @@ strong
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+}
+
+.profile
+{
+	height: 250px;
+	width: 350px;
 }
