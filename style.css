@@ -191,3 +191,18 @@ strong
 	height: 250px;
 	width: 350px;
 }
+
+.descarga
+{
+	color: white;
+	background-color: #383838;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 12px 12px 12px 12px;
+	border-radius: 20px;
+}
+
+.descarga:hover
+{
+	opacity: 0.8;
+}
