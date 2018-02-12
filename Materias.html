@@ -51,7 +51,14 @@
 		</tr>
 	</table>
 </div>
+<!-- Termina menú -->
 
+<center>
+<img src="img/materias.jpg" class="banner">
+</center>
+
+
+<!-- Tabla clases Ken-san -->
 <div class= "contenedor">
 <center>
 <h1>Marcos</h1>
@@ -97,9 +104,113 @@
     <td>Luján Castillo / José Dimas </td>
   </tr>
   </tr>
+
 </table> 
 </center>
 </div>
+
+<div>
+  <br>
+</div>
+
+
+<!-- Tabla clases Jacob -->
+<div class= "contenedor">
+<center>
+<h1>Jacob</h1>
+
+   <table>
+  <tr>
+    <th>Número</th>
+    <th>Materia</th>
+    <th>Profesor</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Identidad y cultura</td>
+    <td>Che Ciau / Marbella</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Cálculo Diferencial</td>
+    <td>Guerrero Ruiz / Eugenio</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Estadística analítica</td>
+    <td>Guerrero Ruiz / Eugenio</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Interconectividad en redes</td>
+    <td>Martín Canul / San Martín Alejandro</td>
+  <tr>
+    <td>5</td>
+    <td>Programación web</td>
+    <td>Luján Castillo / José Dimas </td>
+  </tr>
+  </tr>
+</table> 
+</center>
+</div>
+
+<div>
+  <br>
+</div>
+
+
+
+<center>
+<div class="contenedor">
+  <h2> ¿Ya eres parte de nosotros? </h2>
+</div>
+
+<div class="contenedorRegistro">
+  <h2>Regístrate</h2>
+  <p> Te enviaremos un correo con los detalles para que completes tu proceso de registro. </p>
+  <p>Nombre: <input type=text class="registro"></p>
+  <p>Correo: <input type=text class="registro"></p>
+
+  <button onclick="correo()"> Enviar </button>
+</div>
+</center>
+
+<!-- Inicia login -->
+<script>
+  function check(){
+    if (document.login.password.value=='hola' && document.login.usuario.value == 'hola'){
+      document.login.submit();
+    }
+    else{
+      alert("Usuario o contraseña incorrecta");
+    } 
+  }
+</script>
+
+<center>
+<div class= "contenedorLogin">
+  <form name= login action= "img/ inicioexitoso.jpg">
+    <h2> Inicio de sesión </h2><br>
+    <h2>U s e r <br><input type= text name= usuario></h2>
+    <h2>P a s s <br><input type=password name= password></h2><br>
+    <input onclick = check() type= button value= Acceder>
+  </form>
+</div>
+</center>
+<!-- Termina login -->
+
+
+
+
+<!-- footer -->
+<center>
+<div class="contenedorFooter">
+  <p id="footer"> Op4® todos los derechos reservados - 2018 </p>
+</div>
+</center>
+
+
+<!-- Reloj -->
 <div class= "reloj">
 	<p id="clock"></p>
 </div>

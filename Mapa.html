@@ -68,6 +68,48 @@
 <!-- Termina sección de mapa -->
 
 
+
+
+<center>
+<div class="contenedor">
+	<h2> ¿Ya eres parte de nosotros? </h2>
+</div>
+
+<div class="contenedorRegistro">
+	<h2>Regístrate</h2>
+	<p> Te enviaremos un correo con los detalles para que completes tu proceso de registro. </p>
+	<p>Nombre: <input type=text class="registro"></p>
+	<p>Correo: <input type=text class="registro"></p>
+
+	<button onclick="correo()"> Enviar </button>
+</div>
+</center>
+
+<!-- Inicia login -->
+<script>
+	function check(){
+		if (document.login.password.value=='hola' && document.login.usuario.value == 'hola'){
+			document.login.submit();
+		}
+		else{
+			alert("Usuario o contraseña incorrecta");
+		}	
+	}
+</script>
+
+<center>
+<div class= "contenedorLogin">
+	<form name= login action= "img/	inicioexitoso.jpg">
+		<h2> Inicio de sesión </h2><br>
+		<h2>U s e r <br><input type= text name= usuario></h2>
+		<h2>P a s s <br><input type=password name= password></h2><br>
+		<input onclick = check() type= button value= Acceder>
+	</form>
+</div>
+</center>
+<!-- Termina login -->
+
+
 <!-- footer -->
 <center>
 <div class="contenedorFooter">
