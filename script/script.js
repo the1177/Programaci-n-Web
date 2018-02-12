@@ -20,12 +20,12 @@ function check(){
 	}
 
 //Reloj
-var myVar = setInterval(function() {
-  myTimer();
+var seg = setInterval(function() {
+  relojj();
 }, 1000);
-function myTimer() {
+function relojj() {
   var d = new Date();
-  document.getElementById("clock").innerHTML = "Hora actual<br>" + d.toLocaleTimeString();
+  document.getElementById("clock").innerHTML = "Hora actual<br>" + d.toLocaleTimeString();	
 }
 
 // Contador
