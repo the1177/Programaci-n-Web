@@ -95,6 +95,7 @@ strong
 	background-color: #383838;
 	text-align: center;
 	width: 70%;
+	clear: both;
 }
 
 .contenedorLogin
@@ -138,6 +139,7 @@ strong
 	text-align: center;
 	width: 34%;
 	height: 630px;
+	clear: both;
 }
 
 .contenedorJacob
@@ -205,4 +207,23 @@ strong
 .descarga:hover
 {
 	opacity: 0.8;
+}
+
+.galeria
+{
+	float: left;
+	margin-left: 15%;
+}
+
+.cuadro
+{
+	height: 250px;
+	width: 250px;
+	margin-right: 5px;
+	clear: both;
+}
+
+.cuadro:hover
+{
+	opacity: 0.6;
 }
